@@ -1,0 +1,67 @@
+@font-face{
+  font-family: 'customFont';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf')
+  format('truetype');
+}
+body {
+      background: hsl(47, 88%, 63%);
+      font-family: 'customFont';
+      font-weight: 500;
+    }
+    .container{
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      display: flex;
+    }
+    .card{
+      background-color: white;
+      padding: 12px;
+      justify-content: center;
+      align-items: center;
+      width: 375px;
+      border-radius: 15px;
+      border: 1px solid black;
+      box-shadow: 5px 12px;
+    }
+    button{
+      background: hsl(47, 88%, 63%);
+      border: none;
+      padding: 10px;
+      font-weight: 800;
+      border-radius: 8px;
+    }
+    h2:hover{
+      color:  hsl(47, 88%, 63%);
+      cursor: pointer;
+
+    }
+    p{
+      font-size: 16px;
+      color: hsl(0, 0%, 42%);
+    }
+    .card-img img{
+      margin: 5px;
+      border-radius: 11px;
+      width: 97%;
+    }
+    .card-items{
+      padding: 5px;
+    }
+    .card-buttom{
+      padding: 5px;
+      align-items: center;
+      display: flex;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  
